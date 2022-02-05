@@ -32,7 +32,7 @@ export default function Account() {
 
 	return (
 		<div>
-			<Counter transaction={newTransaction} />
+			{/*<Counter transaction={newTransaction} />*/}
 			{!account ? (
 				<>
 				<Button text='Connect Wallet' onClick={activateBrowserWallet} />

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { DungeonsAndDragonsCharacterAbi } from '../../abis/types';
 import { BigNumber } from '@ethersproject/bignumber';
 import { NFT_ADDRESSES } from '../../constants/addresses';
-import ABI from '../../abis/DungeonsAndDragonsCharacter.abi.json';
+import ABI from '../../abis/Nft.abi.json';
 import useContract from '../../hooks/useContract';
 
 interface CounterProps {
